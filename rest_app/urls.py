@@ -10,4 +10,5 @@ from django.urls import path,include
 from rest_app import views
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("test/",views.hello_world)]
+    path("test/",views.hello_world),
+    path("test1/",views.student_post)]
